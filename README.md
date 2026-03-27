@@ -16,6 +16,10 @@ This project aims to provide insights into EV charging station demand patterns a
 1️⃣2️⃣ Chatbot Demo
 1️⃣3️⃣ Business Insights
 
-(https://github.com/Dharmeshgadhiya161/EVChargingAvailabilityDemand_ML_Dashboard/issues/1#issue-4151870045)
+Dashboard Video URL:- (https://github.com/Dharmeshgadhiya161/EVChargingAvailabilityDemand_ML_Dashboard/issues/1#issue-4151870045)
+
+https://github.com/user-attachments/assets/99b4af9a-2663-4de7-821e-c35426f7b76e
+
+
 
 **Developed an end-to-end EV Charging Analytics Platform on a dataset of 1.3M+ records across 15+ cities, enabling accurate demand forecasting and availability prediction. Engineered 15+ time-series features (lag, rolling, station baselines) and improved model performance to an F1-score of 0.70+ and ROC-AUC of 0.72 through hyperparameter tuning and threshold optimization. Reduced prediction error by ~25% compared to baseline models (MAE/RMSE). Built an interactive Streamlit dashboard with real-time filtering, forecasting, and heatmaps, improving data exploration efficiency by 40%. Integrated a data-grounded AI chatbot (RAG) to answer operational queries, enhancing decision-making for station planning and demand management.**
