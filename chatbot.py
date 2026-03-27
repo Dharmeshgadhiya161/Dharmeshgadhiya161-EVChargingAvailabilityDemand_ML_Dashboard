@@ -165,7 +165,7 @@ REGRESSION (predict utilization at t+1):
 
 CLASSIFICATION (predict port free at t+1):
 - Target   : 1=port free, 0=fully occupied
-- Best model: XGBoost Classifier (tuned in Task 4)
+- Best model: Random Forest Classifier (tuned in Task 4)
 - Threshold : {thresh:.2f} (optimised for max F1)
 - Key features: lag_1_ports_available, lag_1_utilization, traffic
 

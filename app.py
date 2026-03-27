@@ -6,11 +6,9 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score
 import google.generativeai as genai
-
-from chatbot import build_context_library
-
 #---chatbot---
-import anthropic
+from chatbot import build_context_library
+#import anthropic
 import os
 import json
 
@@ -1429,18 +1427,6 @@ with tab6:
 
                     # Step 5: Extract answer text
                     answer = response.text
-
-                except anthropic.AuthenticationError:
-                    answer = (
-                        "⚠️ **API Key Error**\\n\\n"
-                        "Please set your key:\\n"
-                        "```python\\n"
-                        "import os\\n"
-                        "os.environ[\\'_API_KEY\\'] "
-                        "= \\'your-key-here\\'\\n"
-                        "```\\n"
-                        ""
-                    )
                 except Exception as e:
                     answer = f"⚠️ **Error:** {str(e)}"
 
@@ -1474,5 +1460,4 @@ with tab6:
         fc3.caption(
             f"💬 {n} turn(s) · "
             f"{len(context_lib)} data chunks · "
-            f"Model: claude-opus-4-5"
-        )
+            f"Model: Gemini 1.0")
