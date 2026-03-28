@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
 
 <img align="right" width="120" height="120" alt="ev1" src="https://github.com/user-attachments/assets/acea8485-c939-46e5-82f5-a27253f6ae8b" />
 
@@ -58,14 +58,12 @@ ev-charging-intelligence/
 ├── notebooks/
 ├── app.py
 ├── chatebod.py
-└── README.md
+└── README.md -->
 
 Dashboard live link 
 
 https://github.com/user-attachments/assets/99b4af9a-2663-4de7-821e-c35426f7b76e
 
-
-----------------
 
 <div align="center">
   <img align="right" width="120" height="120" alt="ev1" 
