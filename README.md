@@ -60,88 +60,6 @@ ev-charging-intelligence/
 ├── chatebod.py
 └── README.md -->
 
-Dashboard live link 
-
-https://github.com/user-attachments/assets/99b4af9a-2663-4de7-821e-c35426f7b76e
-
-
-<!-- <div align="center">
-  <img align="right" width="120" height="120" alt="ev1" 
-       src="https://github.com/user-attachments/assets/acea8485-c939-46e5-82f5-a27253f6ae8b" />
-
-  # EV Charging Availability & Demand Intelligence
-
-  **Real-time intelligence for Electric Vehicle charging infrastructure**
-
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-  [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-  [![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)]()
-
-</div>
-
----
-
-## 🚀 Overview
-
-This project provides **actionable insights** into EV charging station demand patterns and builds predictive tools to support better decision-making for EV drivers and charging infrastructure operators.
-
-The final solution includes **machine learning models**, an **interactive dashboard**, and an **AI chatbot** that helps users explore charging station data and trends.
-
----
-
-### ✨ Key Highlights
-
-- Developed an **end-to-end EV Charging Analytics Platform** on a dataset of **1.3M+ records** across **15+ cities**
-- Engineered **15+ time-series features** (lag, rolling windows, station baselines)
-- Achieved **F1-score of 0.70+** and **ROC-AUC of 0.72** after hyperparameter tuning
-- Reduced prediction error by **~25%** compared to baseline models (MAE/RMSE)
-- Built an **interactive Streamlit dashboard** with real-time filtering, forecasting, and heatmaps
-- Integrated a **data-grounded AI chatbot (RAG)** for operational queries
-
----
-
-## 📊 Project Sections
-
-1. **Problem Statement**
-2. **Dataset Overview**
-3. **Business Use Case**
-4. **EDA Insights**
-5. **Feature Engineering**
-6. **Model 1 (Regression)**
-7. **Model Results**
-8. **Model 2 (Classification)**
-9. **Model Results**
-10. **Hyperparameter Tuning**
-11. **Dashboard Demo**
-12. **Chatbot Demo**
-13. **Business Insights**
-
----
-
-## 🛠 Tech Stack
-
-- **Backend**: Python
-- **Frontend**: Streamlit + Dash
-- **Data Processing**: Pandas, NumPy
-- **ML/AI**: Scikit-learn, TensorFlow / PyTorch
-- **Visualization**: Plotly, Matplotlib, Seaborn
-- **AI Chatbot**: RAG-based (LangChain / LlamaIndex)
-
----
-
-## 📂 Project Structure
-
-```bash
-ev-charging-intelligence/
-├── data/                  # Raw and processed datasets
-├── models/                # Trained ML models
-├── notebooks/             # EDA and model development notebooks
-├── app.py                 # Streamlit Dashboard
-├── chatbot.py             # AI Chatbot (RAG)
-├── requirements.txt
-└── README.md -->
-
-
 <div align="center">
   <img align="right" width="130" height="130" alt="ev1" 
        src="https://github.com/user-attachments/assets/acea8485-c939-46e5-82f5-a27253f6ae8b" />
@@ -200,27 +118,6 @@ A mobility + energy planning organization wants to:
 You can choose **any two**:
 1. **Regression / Forecasting** → Predict `utilization_rate` or `estimated_wait_time_mins` at **t+1** (30 mins ahead)
 2. **Classification** → Predict whether a port will be **available** at t+1
-
-*(Other options: Clustering, Anomaly Detection, Dynamic Pricing Analytics)*
-
----
-
-## 📋 Project Structure (6 Tasks – 3 Weeks)
-
-### Week 1
-- **Task 1**: Business Understanding, Problem Framing & EDA
-- **Task 2**: Data Preprocessing & Feature Engineering  
-  *(Lag features, rolling windows, station baselines, leakage control)*
-
-### Week 2
-- **Task 3**: Model Building & Evaluation (Two chosen applications)
-- **Task 4**: Hyperparameter Tuning & Model Optimization  
-  *(Time-based CV, error analysis by city/network/peak hours)*
-
-### Week 3
-- **Task 5**: Model Deployment & Streamlit Dashboard
-- **Task 6**: Generative AI Chatbot (RAG) + Final Presentation
-
 ---
 
 ## ✨ Key Achievements
@@ -239,7 +136,7 @@ You can choose **any two**:
 - **Language**: Python 3.10+
 - **Data Processing**: Pandas, NumPy
 - **Visualization**: Plotly, Matplotlib, Seaborn
-- **ML**: Scikit-learn, XGBoost/LightGBM, TensorFlow/PyTorch (LSTM optional)
+- **ML**: Scikit-learn, RandomForestRegressor, RandomForestClassification, and XGBoost
 - **Dashboard**: Streamlit
 - **AI Chatbot**: RAG (LangChain / LlamaIndex + embeddings)
 - **Others**: Joblib (model saving), Parquet support
@@ -259,3 +156,8 @@ ev-charging-intelligence/
 ├── requirements.txt
 ├── deployment_plan.md
 └── README.md
+-----
+## Dashboard live link 
+
+https://github.com/user-attachments/assets/99b4af9a-2663-4de7-821e-c35426f7b76e
+
