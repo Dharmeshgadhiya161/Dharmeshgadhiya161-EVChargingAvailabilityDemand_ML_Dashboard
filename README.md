@@ -1,4 +1,4 @@
-<img width="80" height="80" alt="ev1" src="https://github.com/user-attachments/assets/acea8485-c939-46e5-82f5-a27253f6ae8b" /> 
+<img width="80" height="80" alt="ev1" src="https://github.com/user-attachments/assets/acea8485-c939-46e5-82f5-a27253f6ae8b" />
 # EV Charging Availability & Demand Intelligence 
 Dashboard
 
