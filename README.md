@@ -142,6 +142,11 @@ You can choose **any two**:
 - **Others**: Joblib (model saving), Parquet support
 
 ---
+## Dashboard live link 
+
+https://github.com/user-attachments/assets/99b4af9a-2663-4de7-821e-c35426f7b76e
+
+---
 
 ## 📂 Project Structure
 
@@ -157,7 +162,6 @@ ev-charging-intelligence/
 ├── deployment_plan.md
 └── README.md
 -----
-## Dashboard live link 
 
-https://github.com/user-attachments/assets/99b4af9a-2663-4de7-821e-c35426f7b76e
+
 
