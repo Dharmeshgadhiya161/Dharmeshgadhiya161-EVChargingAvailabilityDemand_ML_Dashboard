@@ -143,11 +143,13 @@ You can choose **any two**:
 - **Others**: Joblib (model saving), Parquet support
 
 ---
-## Dashboard live link 
+## Streamlit Dashboard live link 
 
 https://github.com/user-attachments/assets/99b4af9a-2663-4de7-821e-c35426f7b76e
 
 ---
+
+<img width="1920" height="2009" alt="EV-Charging-Intelligence-Deshboard_1" src="https://github.com/user-attachments/assets/bb4ddbc8-1fcf-46c6-b68b-1fecf715d282" />
 
 ## 📂 Project Structure
 
@@ -163,4 +165,4 @@ ev-charging-intelligence/
 ├── deployment_plan.md
 └── README.md
 -----
-<img width="1920" height="2009" alt="EV-Charging-Intelligence-Deshboard_1" src="https://github.com/user-attachments/assets/bb4ddbc8-1fcf-46c6-b68b-1fecf715d282" />
+
